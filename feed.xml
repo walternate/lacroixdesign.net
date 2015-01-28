@@ -5,7 +5,30 @@
   <id>http://www.lacroixdesign.net/blog</id>
   <link href="http://www.lacroixdesign.net/blog"/>
   <link href="http://www.lacroixdesign.net/feed.xml" rel="self"/>
-  <updated>2014-09-11T12:30:00-05:00</updated>
+  <updated>2015-01-28T15:00:00-06:00</updated>
+  <entry>
+    <title>Website Launch: Chicago Food Magazine</title>
+    <link rel="alternate" href="http://www.lacroixdesign.net/blog/new-work-chicago-food-magazine/"/>
+    <id>http://www.lacroixdesign.net/blog/new-work-chicago-food-magazine/</id>
+    <published>2015-01-28T15:00:00-06:00</published>
+    <updated>2015-01-28T14:55:52-06:00</updated>
+    <author>
+      <name>James LaCroix</name>
+    </author>
+    <content type="html">&lt;p&gt;Of all of the things that we enjoy about Chicago, the food scene is probably at the top of the list. By food scene, I’m not referring to Chicago dogs, deep dish or Italian beef. Instead, I’m talking about the fast-growing assortment of new establishments opening by some of the nation’s most notable new chefs and entrepreneurs. When we are not behind our computers or sketching new ideas at our desks, you will most often find us enjoying craft beers, cocktails and/or a delicious meal somewhere that is most likely becoming our new favorite bar or restaurant.&lt;/p&gt;
+
+&lt;p&gt;You can imagine our delight when we began talking with &lt;a target="_blank" href="http://www.chicagofoodmagazine.com/"&gt;Chicago Food Magazine&lt;/a&gt; back in October. Their team had already begun documenting Chicago’s growing restaurant population through captivating photography. With a vibrant social media presence in place and an ever-growing subscriber base, the team was ready to make their foray into publishing content on their own platform. Their goal was to create an online magazine that provides informative posts on the Chicago food scene in addition to breaking information on news and events.&lt;/p&gt;
+
+&lt;p&gt;Throughout our correspondence with Chicago Food Magazine, we brainstormed features and devised a plan for a publishing platform that would be able to meet their current goals while also providing a strong foundation for future developments. This platform provides the editorial team with tools to publish articles that include a variety of image and social media elements on the responsive website.&lt;/p&gt;
+
+&lt;p&gt;Our design process produced a scalable visual system that would highlight their rich use of photography and provide a pleasant reading experience for visitors. With a large social media following already in place, an important part of the website’s development involved creating a system for sharing content through those channels. To keep followers informed, breaking news is automatically dispersed across those outlets as articles are published.&lt;/p&gt;
+
+&lt;p&gt;We are thrilled to have had the opportunity to design and develop the new Chicago Food Magazine website. Even more so, we have thoroughly enjoyed the content that the magazine has been producing since launch. Over the next few weeks, we will be discussing the project in more detail through a series of blog posts as well as a case study.&lt;/p&gt;
+
+&lt;p&gt;We hope that you take the opportunity to experience the new website at &lt;a target="_blank" href="http://www.chicagofoodmagazine.com/"&gt;www.ChicagoFoodMagazine.com&lt;/a&gt; and hopefully we’ll catch you frequenting one of Chicago’s many top-notch establishments.&lt;/p&gt;
+</content>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://d2s13a5qoldi0f.cloudfront.net/images/blog/new-work-chicago-food-magazine/new-work-chicago-food-magazine-5777c0b5.jpg"/>
+  </entry>
   <entry>
     <title>One Year of Node Bourbon</title>
     <link rel="alternate" href="http://www.lacroixdesign.net/blog/one-year-of-node-bourbon/"/>
@@ -210,34 +233,5 @@ same office for a year now, we&amp;rsquo;ve found that these changes have improv
 &lt;p&gt;Despite the unflattering still on the for the video placeholder, I had a wonderful time talking with Sam. If you are interested, you can view the entire interview &lt;a target="_blank" href="http://signaltower.co/james-lacroixs-path-to-becoming-a-designer/"&gt;here&lt;/a&gt;.&lt;/p&gt;
 </content>
     <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://d2s13a5qoldi0f.cloudfront.net/images/blog/signal-tower-interview/signal-tower-interview-592eb436.jpg"/>
-  </entry>
-  <entry>
-    <title>Doing More With Less</title>
-    <link rel="alternate" href="http://www.lacroixdesign.net/blog/doing-more-with-less/"/>
-    <id>http://www.lacroixdesign.net/blog/doing-more-with-less/</id>
-    <published>2014-05-27T12:30:00-05:00</published>
-    <updated>2015-01-28T12:44:35-06:00</updated>
-    <author>
-      <name>James LaCroix</name>
-    </author>
-    <content type="html">&lt;p&gt;After a couple of months of hard work, we recently launched a new site for LaCroix Design Co. Odds are if you are reading this, you&amp;rsquo;ve seen the site and I hope that you are enjoying it.&lt;/p&gt;
-
-&lt;p&gt;I can not recall how many sites for our company have come before this one but I know that this is now the third one that I have worked on with Michael and as with each one before it, I believe that this one is the best yet. Prior to addition of Michael&amp;rsquo;s developer expertise, LaCroix Design Co. consisted of just me. Initially, I had no desire to design for the web and never imagined that I would wish to.&lt;/p&gt;
-
-&lt;p&gt;My evolution to web designer came out of a necessity. Quite frankly, I needed a way for people to see the graphic design, illustration and identity work that I was doing. Armed with a handful of video tutorials, I began tearing apart WordPress templates in an attempt to mold them into some semblance of a portfolio site.&lt;/p&gt;
-
-&lt;p&gt;Every time that I discovered something new about the way people interacted with the web or how to develop for it, I would start over and construct a new portfolio site. As a learned to love the design process, this would typically involve coding through the night in order to see something come together by daylight. Sometimes these sites would last months and sometimes mere weeks.&lt;/p&gt;
-
-&lt;p&gt;With every new site, I sought to do more. I still remember the time that I decided to build an entire site solely because I had learned to animate an accordion menu with a JavaScript library. Every iteration was an experiment utilizing all of the knowledge that I had up to that point. I wanted to include it all.&lt;/p&gt;
-
-&lt;p&gt;This method continued with the addition of Michael to the team. Michael&amp;rsquo;s skill set and ideas brought super powers to everything that I had been attempting to do. The first LaCroix Design Co. site that we built moved us away from WordPress and onto Expression Engine. This iteration focused on adding more functionality as well as aesthetic bells and whistles.&lt;/p&gt;
-
-&lt;p&gt;After that we, we created the predecessor to this site. It was the first responsive web site that we made for ourselves and began to showcase not only the visual nature of our projects but also the design thinking and process that went into them. Not fully content with any content management system available, this site was powered by a custom built web application to demonstrate our studio&amp;rsquo;s development skills.&lt;/p&gt;
-
-&lt;p&gt;This leads us to our most recent iteration. For the first time in nearly nine years, we did not attempt to add more and sought to reduce wherever possible. Although we are still quite proud of our custom content management system, we abandoned it due to lack of necessity. When both members of the team are comfortable with HTML &amp;amp; CSS, a content management system is overkill and removing it increases the speed of the site. Additionally, we reduced the copy and amount of pages to provide a simpler user experience. Design should facilitate rather than get in the way of the stories that we always want to share through our site.&lt;/p&gt;
-
-&lt;p&gt;By having less, we have the capability to iterate more quickly. Rather than wait another year or two to create a new site, changes can be quickly made as we examine the interactions taking place. I would trust that the site will not look exactly the same next month as it does today. We are excited about what we have learned and planned to share more specific details about it in the coming weeks and months. We hope that you find delight in the new site and more importantly the work that we have done for our clients.&lt;/p&gt;
-</content>
-    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://d2s13a5qoldi0f.cloudfront.net/images/blog/doing-more-with-less/doing-more-with-less-dbabc9ed.jpg"/>
   </entry>
 </feed>
