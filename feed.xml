@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>LaCroix Design Co.</title>
+  <subtitle>Empowering businesses to become more successful, we design and develop innovative experiences that deliver measurable results.</subtitle>
+  <id>http://www.lacroixdesign.net/blog</id>
+  <link href="http://www.lacroixdesign.net/blog"/>
+  <link href="http://www.lacroixdesign.net/feed.xml" rel="self"/>
+  <updated>2014-09-11T12:30:00-05:00</updated>
+  <entry>
+    <title>One Year of Node Bourbon</title>
+    <link rel="alternate" href="http://www.lacroixdesign.net/blog/one-year-of-node-bourbon/"/>
+    <id>http://www.lacroixdesign.net/blog/one-year-of-node-bourbon/</id>
+    <published>2014-09-11T12:30:00-05:00</published>
+    <updated>2015-01-28T12:44:35-06:00</updated>
+    <author>
+      <name>Michael LaCroix</name>
+    </author>
+    <content type="html">&lt;p&gt;A year ago we released &lt;a target="_blank" href="https://github.com/lacroixdesign/node-bourbon"&gt;node-bourbon&lt;/a&gt;, our port of &lt;a target="_blank" href="http://thoughtbot.com/"&gt;thoughtbot&amp;rsquo;s&lt;/a&gt; excellent &lt;a target="_blank" href="http://bourbon.io/"&gt;Bourbon&lt;/a&gt; library to &lt;a target="_blank" href="https://github.com/sass/node-sass"&gt;node-sass&lt;/a&gt;. Node-sass is a Node.js wrapper of &lt;a target="_blank" href="http://libsass.org/"&gt;LibSass&lt;/a&gt;, an extremely fast version of Sass written in C/C++. The original version of Sass is written in Ruby which &amp;mdash; while a wonderful language &amp;mdash; can be a bit slow. With the forthcoming anniversary, we figured it was due time we wrote a blog post about it.&lt;/p&gt;
+
+&lt;p&gt;In case you&amp;rsquo;re not familiar, Bourbon is a mixin library for &lt;a target="_blank" href="http://sass-lang.com/"&gt;Sass&lt;/a&gt;, the popular CSS preprocessor. Bourbon provides a great amount of utility while appreciatively remaining lean and simple.&lt;/p&gt;
+
+&lt;h3&gt;Why port it?&lt;/h3&gt;
+
+&lt;p&gt;LibSass introduced a dramatic speed increase in Sass compliation that we wanted to take advantage of in our client-side build tools. The original Bourbon was being utilized in our projects for a couple years at that point, however we ran into compilation issues when trying to include it directly since LibSass does not have 100% feature compatibility with Ruby Sass.&lt;/p&gt;
+
+&lt;p&gt;We decided to create a project which would include workarounds for those issues, while also providing some conveniences for Node.js-based build tools.&lt;/p&gt;
+
+&lt;p&gt;Our primary goals for the project were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A focus on LibSass compatibility&lt;/li&gt;
+&lt;li&gt;Packaged for npm&lt;/li&gt;
+&lt;li&gt;A convenience method for supplying the project path to both the build tool and to other libraries that might depend on it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;How to use it&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;ll provide an example for using node-bourbon in a gulp.js project. Assuming you&amp;rsquo;ve already &lt;a target="_blank" href="https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md"&gt;set up gulp&lt;/a&gt;, you&amp;rsquo;ll next want to add node-bourbon to your project:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-bash"&gt;npm install --save-dev node-bourbon
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then in your &lt;code&gt;gulpfile.js&lt;/code&gt;, use node-bourbon in conjuction with gulp-sass. The &lt;code&gt;includePaths&lt;/code&gt; property returns an array containing the path to the Bourbon directory. Example usage:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-scss"&gt;var gulp = require(&amp;#39;gulp&amp;#39;);
+var sass = require(&amp;#39;gulp-sass&amp;#39;);
+
+gulp.task(&amp;#39;sass&amp;#39;, function () {
+  gulp.src(&amp;#39;path/to/input.scss&amp;#39;)
+    .pipe(sass({
+      includePaths: require(&amp;#39;node-bourbon&amp;#39;).includePaths
+    }))
+   .pipe(gulp.dest(&amp;#39;path/to/output.css&amp;#39;));
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you have additional paths you would like to load, the &lt;code&gt;with()&lt;/code&gt; helper can assist:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-scss"&gt;var gulp = require(&amp;#39;gulp&amp;#39;);
+var sass = require(&amp;#39;gulp-sass&amp;#39;);
+
+gulp.task(&amp;#39;sass&amp;#39;, function () {
+  gulp.src(&amp;#39;path/to/input.scss&amp;#39;)
+    .pipe(sass({
+      includePaths: require(&amp;#39;node-bourbon&amp;#39;).with([&amp;#39;first/path&amp;#39;, &amp;#39;second/path&amp;#39;])
+    }))
+   .pipe(gulp.dest(&amp;#39;path/to/output.css&amp;#39;));
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Examples for other tools can be found in the &lt;a target="_blank" href="https://github.com/lacroixdesign/node-bourbon#contents"&gt;readme on GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Feel free to &lt;a target="_blank" href="https://twitter.com/iamlacroix"&gt;send me a tweet&lt;/a&gt; if you have any questions!&lt;/p&gt;
+</content>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://d2s13a5qoldi0f.cloudfront.net/images/blog/one-year-of-node-bourbon/bourbon-bb162508.jpg"/>
+  </entry>
+  <entry>
+    <title>Announcing Our New Monthly Newsletter</title>
+    <link rel="alternate" href="http://www.lacroixdesign.net/blog/announcing-our-new-monthly-newsletter/"/>
+    <id>http://www.lacroixdesign.net/blog/announcing-our-new-monthly-newsletter/</id>
+    <published>2014-08-26T09:00:00-05:00</published>
+    <updated>2015-01-28T12:44:35-06:00</updated>
+    <author>
+      <name>James LaCroix</name>
+    </author>
+    <content type="html">&lt;p&gt;With our inaugural issue nearly complete and subsequent monthly issues already in the works, we are pleased to announce the launch of our new email newsletter. Our first issue will be sent out at the beginning of September and we will be regularly creating original content each month.&lt;/p&gt;
+
+&lt;p&gt;The format will allow us to approach concepts that do not necessarily fit within the structure of our blog or case studies. This will include a behind the scenes look at what we have been building to inspire new ideas and provide benefit to your business. With these curated briefings, we hope to give readers inside access to what we have been researching, designing, building and thinking. We hope this will be a welcome addition to your inbox and encourage you to &lt;a target="_blank" href="http://www.lacroixdesign.net/newsletter/"&gt;subscribe here&lt;/a&gt;.
+ 
+We have worked with numerous clients over the years to design and develop successful email marketing campaigns. As a result, we have consistently been fascinated with finding better ways to connect to an audience through this medium.&lt;/p&gt;
+
+&lt;p&gt;It has long been a goal of ours to create our own newsletter. In fact, we have had a form to subscribe on our site for nearly four years. Yet, we have never once sent out a LaCroix Design Co. Newsletter. During this time, we often wrestled with creating valuable email content that our readers would appreciate. As people who regularly receive large amounts of email, we never just wanted to contribute to the noise.&lt;/p&gt;
+
+&lt;p&gt;Our goal with this newsletter is to create something that is candid, genuine and beneficial to our readers. We chose a monthly schedule to ensure that our correspondence is never overwhelming and that the content delivered is relevant. &lt;/p&gt;
+
+&lt;p&gt;As with most things that we do, we also view the creation of our own newsletter as a great opportunity to experiment. We are excited to use &lt;a target="_blank" href="http://eepurl.com/v7UmP"&gt;Mailchimp’s&lt;/a&gt; wonderful tools and features for an internal project. It will also be exciting to evaluate how our readers are engaging with our content as we go along. Thus, we will welcome any feedback and will seek to continually improve with each issue. It is through this ongoing experiment that we look to gain more knowledge, insight and ideas that we will pass along to our current and future clients.&lt;/p&gt;
+
+&lt;p&gt;We will be sending out the first issue next week. Feel free to subscribe via the form below.&lt;/p&gt;
+
+&lt;figure class="figure-small"&gt;
+  &lt;form action="//lacroixdesign.us2.list-manage.com/subscribe/post?u=cb74d792445887e99b0a36575&amp;amp;id=9875eb3767"
+      id="mc-embedded-subscribe-form"
+      class="b-form b-newsletter-form"
+      name="mc-embedded-subscribe-form"
+      method="post"
+      target="_blank"&gt;
+  &lt;div class="form__required-indicator"&gt;
+    &lt;span class="input--required-asterisk"&gt;*&lt;/span&gt; indicates required
+  &lt;/div&gt;
+
+  &lt;div class="input--group"&gt;
+    &lt;label for="mce-EMAIL"&gt;Email Address  &lt;span class="input--required-asterisk"&gt;*&lt;/span&gt;&lt;/label&gt;
+    &lt;input type="email" value="" name="EMAIL" id="mce-EMAIL" class="input"&gt;
+  &lt;/div&gt;
+  &lt;div class="input--group"&gt;
+    &lt;label for="mce-FNAME"&gt;First Name&lt;/label&gt;
+    &lt;input type="text" value="" name="FNAME" id="mce-FNAME" class="input"&gt;
+  &lt;/div&gt;
+  &lt;div class="input--group"&gt;
+    &lt;label for="mce-LNAME"&gt;Last Name&lt;/label&gt;
+    &lt;input type="text" value="" name="LNAME" id="mce-LNAME" class="input"&gt;
+  &lt;/div&gt;
+
+  &lt;div style="position: absolute; left: -5000px;"&gt;
+    &lt;input type="text" name="b_cb74d792445887e99b0a36575_9875eb3767" tabindex="-1" value=""&gt;
+  &lt;/div&gt;
+
+  &lt;div class="b-form__actions"&gt;
+    &lt;button type="submit" name="subscribe" class="btn"&gt;Subscribe&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+
+&lt;/figure&gt;
+</content>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://d2s13a5qoldi0f.cloudfront.net/images/blog/announcing-our-new-monthly-newsletter/announcing-our-new-monthly-newsletter-ed34674d.jpg"/>
+  </entry>
+  <entry>
+    <title>Lessons Learned From Working Remotely</title>
+    <link rel="alternate" href="http://www.lacroixdesign.net/blog/lessons-learned-from-working-remotely/"/>
+    <id>http://www.lacroixdesign.net/blog/lessons-learned-from-working-remotely/</id>
+    <published>2014-08-19T09:00:00-05:00</published>
+    <updated>2015-01-28T12:44:35-06:00</updated>
+    <author>
+      <name>James LaCroix</name>
+    </author>
+    <content type="html">&lt;p&gt;From day one, my business has been a laboratory for experimentation. My time spent working in the music industry piqued my interest in entrepreneurship and small business ventures, but I initially knew very little about running a design studio. With no previous experience as a design employee, my company was a blank canvas for how a design studio could be run. Of course, this has resulted in plenty of mistakes and hard lessons but over time, I&amp;rsquo;ve continually welcomed the opportunity to experiment with all aspects of the business.&lt;/p&gt;
+
+&lt;p&gt;In the same manner that we use design thinking to deliver successful solutions for our clients, we believe that design thinking can be applied to the process that leads us to those results. Experimentation and iteration provides continual improvement in the way we operate. One such experiment meant moving my company nearly 500 miles from Nashville to Chicago. The relocation provided us with an opportunity to move out of our comfort zone in order to improve as designers and developers. It also made me grow as a business owner. Leaving a small market where my business was established and operating successfully to a much larger market where we would be virtually unknown offered its fair share of opportunities and risk.&lt;/p&gt;
+
+&lt;p&gt;To ease the transition, Michael remained in Nashville for a year and we began working remotely. Operating out of separate locations meant that we had to adjust our workflows to ensure that the quality of our work would not slip but rather improve as we began to enter a larger market. As with any new experiment, our foray into remote work had its bumps and bruises. Before long, we had adapted and found ourselves relishing in our newfound workflows.&lt;/p&gt;
+
+&lt;p&gt;Twelve months ago, this year-long experiment came to an end as Michael made the move to Chicago so that we could once again work within the same office. Now, with a full year of working beside one another, we have realized that the lessons learned from working remotely have made us better designers, developers and communicators.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We became better writers.&lt;/strong&gt;&lt;br&gt;
+Remote work eliminated the opportunity for casual conversation. Phone calls and video chats consume too much time so we chose to limit those to important occasions. Writing became our main source of communication. This required articulation with our thoughts in order to get our points across clearly and efficiently. Whether using email, project management software or our internal chat software, working remotely demanded deliberate thought when sharing our ideas and critiques.&lt;/p&gt;
+
+&lt;p&gt;In turn, this helped with client correspondence as well. We devised systems for reviewing and editing proposals or any long-form communications with clients. This required that initial contributor took the time to encompass all of the finer details of the project so that the reviewer would be able to provide edits that helped to clarify the material. Often, we would review documents several times to assure that our correspondence represented the same thoughtfulness that we give to our work.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We had to be more organized.&lt;/strong&gt;&lt;br&gt;
+When working remotely, little things that slip through the cracks can&amp;rsquo;t happen. Thus, we had to develop a bulletproof set of systems that we still use today. Completed tasks needed to be recorded so that both partners were keenly aware of what needed to be accomplished. Additionally, keeping files and resources organized was crucial for streamlined workflow at both offices.&lt;/p&gt;
+
+&lt;p&gt;We relied on our project management software to meet these needs. The tool that we were already using, &lt;a target="_blank" href="https://basecamp.com/"&gt;Basecamp&lt;/a&gt;, was our initial solution. Utilizing email as its notification channel, Basecamp allowed us to also bring clients into the project management software. This way, our clients could observe and communicate as their project was progressing. We have since progressed to using &lt;a target="_blank" href="https://trello.com/jameslacroix/recommend"&gt;Trello&lt;/a&gt; for all internal projects and have begun testing it on some client projects. Trello provides us with a more visual view of the project status. Additionally, tasks can proceed through a series of stages rather than simply complete or incomplete.&lt;/p&gt;
+
+&lt;p&gt;While working in remote offices, we still needed to have a channel for regular conversation &amp;mdash; enter chat service. We initially used &lt;a target="_blank" href="https://campfirenow.com/"&gt;Campfire&lt;/a&gt;, followed by &lt;a target="_blank" href="https://www.hipchat.com/"&gt;Hipchat&lt;/a&gt; and then happily landed on &lt;a target="_blank" href="https://slack.com/r/024l00bf-02533q4k"&gt;Slack&lt;/a&gt;. To this day, the majority of our conversations still take place in Slack. The service provides separate channels to keep our thoughts organized and the ability to search through these communications at a later time. Seamlessly working with third-party applications, Slack will notify us of Trello updates or Git commits. It will also parse the information from shared links which allow us to quickly share screenshots of ideas using &lt;a target="_blank" href="http://www.getcloudapp.com/"&gt;CloudApp&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We learned to be more decisive.&lt;/strong&gt;&lt;br&gt;
+One of the fallbacks of being a designer or developer is overthinking our solutions. We are all guilty of this from time to time. Self-doubt will sometimes creep in and minor iterations end up consuming hours of work only to return to where you first started. When working in the same office, it is quite convenient to distract a co-worker for feedback on every little step. In this circumstance, self-doubt begins to paralyze your workflow. Working remotely required proactive and confident decisions.&lt;/p&gt;
+
+&lt;p&gt;All in all, this experiment in working remotely has had a lasting, positive
+effect on our non-remote workflows. After working in the
+same office for a year now, we&amp;rsquo;ve found that these changes have improved the productivity and quality of our work.&lt;/p&gt;
+</content>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://d2s13a5qoldi0f.cloudfront.net/images/blog/lessons-learned-from-working-remotely/lessons-learned-from-working-remotely-8efd083e.jpg"/>
+  </entry>
+  <entry>
+    <title>Keeping Workplace Morale High</title>
+    <link rel="alternate" href="http://www.lacroixdesign.net/blog/keeping-workplace-morale-high/"/>
+    <id>http://www.lacroixdesign.net/blog/keeping-workplace-morale-high/</id>
+    <published>2014-05-29T16:30:00-05:00</published>
+    <updated>2015-01-28T12:44:35-06:00</updated>
+    <author>
+      <name>James LaCroix</name>
+    </author>
+    <content type="html">&lt;figure class="image-stretch-wrap"&gt;&lt;img alt="Dempsey" class="image-fullwidth" width="800" height="800" src="http://d2s13a5qoldi0f.cloudfront.net/images/blog/keeping-workplace-morale-high/dempsey-office-f7fe3a92.jpg" /&gt;&lt;/figure&gt;
+
+&lt;p&gt;We love designing and developing for the web. However, there are those rare times when even things that we are passionate about start to feel like hard work. It is for these times that we have recruited the smallest member of our team.&lt;/p&gt;
+
+&lt;p&gt;Named after a &lt;a target="_blank" href="http://cloud.lacroixdesign.net/image/1P2q2o030G0V"&gt;popular United States soccer star&lt;/a&gt;, Dempsey is tasked with keeping the workplace morale high. She often accomplishes this by launching herself into laps, engaging workers in playful activities or performing hilarious antics. While not condoned in some workplaces, Dempsey is also known to dish out quite gratuitous displays of affection.&lt;/p&gt;
+
+&lt;p&gt;In addition to keeping morale high, Dempsey fills her day by performing security detail and ensuring that office seating remains occupied if someone goes out to make a coffee. In typical Don Draper-esque fashion, she is quite keen to take an office nap in order to keep the creative juices flowing.&lt;/p&gt;
+
+&lt;p&gt;We do not know how we got by before this rescued Schnauzer puppy joined us. Aside from piping in on the occasional phone call, most of Dempsey&amp;rsquo;s contributions go unnoticed by those outside of our small design and development team. However, she has become integral part of our inner workings and we figured that it was about time to give credit where credit was due.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Signal Tower Interview</title>
+    <link rel="alternate" href="http://www.lacroixdesign.net/blog/signal-tower-interview/"/>
+    <id>http://www.lacroixdesign.net/blog/signal-tower-interview/</id>
+    <published>2014-05-28T14:00:00-05:00</published>
+    <updated>2015-01-28T12:44:35-06:00</updated>
+    <author>
+      <name>James LaCroix</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/96210906&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_artwork=true"&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;A little less that a year ago, I had the opportunity to sit down for an &lt;a target="_blank" href="http://signaltower.co/james-lacroixs-path-to-becoming-a-designer/"&gt;interview&lt;/a&gt; with Sam Solomon. Sam runs a fantastic site, &lt;a target="_blank" href="http://signaltower.co/"&gt;Signal Tower&lt;/a&gt;, where he interviews various entrepreneurs. I recently realized that we had never shared this interview on the LaCroix Design Co. blog so with the recent launch of our new site, this seemed like the perfect time.&lt;/p&gt;
+
+&lt;p&gt;During the interview, Sam and I had the opportunity to discuss what led me into the field of design, why I started LaCroix Design Co. and my time spent being employed in the music industry. As a result, we also had the opportunity cover how that process affects my approach to design. The interview took place shortly after our launch of &lt;a target="_blank" href="http://www.1pagesites.net/"&gt;1 Page Sites&lt;/a&gt;, so we also talk about our package service for single page responsive sites.&lt;/p&gt;
+
+&lt;p&gt;Despite the unflattering still on the for the video placeholder, I had a wonderful time talking with Sam. If you are interested, you can view the entire interview &lt;a target="_blank" href="http://signaltower.co/james-lacroixs-path-to-becoming-a-designer/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+</content>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://d2s13a5qoldi0f.cloudfront.net/images/blog/signal-tower-interview/signal-tower-interview-592eb436.jpg"/>
+  </entry>
+  <entry>
+    <title>Doing More With Less</title>
+    <link rel="alternate" href="http://www.lacroixdesign.net/blog/doing-more-with-less/"/>
+    <id>http://www.lacroixdesign.net/blog/doing-more-with-less/</id>
+    <published>2014-05-27T12:30:00-05:00</published>
+    <updated>2015-01-28T12:44:35-06:00</updated>
+    <author>
+      <name>James LaCroix</name>
+    </author>
+    <content type="html">&lt;p&gt;After a couple of months of hard work, we recently launched a new site for LaCroix Design Co. Odds are if you are reading this, you&amp;rsquo;ve seen the site and I hope that you are enjoying it.&lt;/p&gt;
+
+&lt;p&gt;I can not recall how many sites for our company have come before this one but I know that this is now the third one that I have worked on with Michael and as with each one before it, I believe that this one is the best yet. Prior to addition of Michael&amp;rsquo;s developer expertise, LaCroix Design Co. consisted of just me. Initially, I had no desire to design for the web and never imagined that I would wish to.&lt;/p&gt;
+
+&lt;p&gt;My evolution to web designer came out of a necessity. Quite frankly, I needed a way for people to see the graphic design, illustration and identity work that I was doing. Armed with a handful of video tutorials, I began tearing apart WordPress templates in an attempt to mold them into some semblance of a portfolio site.&lt;/p&gt;
+
+&lt;p&gt;Every time that I discovered something new about the way people interacted with the web or how to develop for it, I would start over and construct a new portfolio site. As a learned to love the design process, this would typically involve coding through the night in order to see something come together by daylight. Sometimes these sites would last months and sometimes mere weeks.&lt;/p&gt;
+
+&lt;p&gt;With every new site, I sought to do more. I still remember the time that I decided to build an entire site solely because I had learned to animate an accordion menu with a JavaScript library. Every iteration was an experiment utilizing all of the knowledge that I had up to that point. I wanted to include it all.&lt;/p&gt;
+
+&lt;p&gt;This method continued with the addition of Michael to the team. Michael&amp;rsquo;s skill set and ideas brought super powers to everything that I had been attempting to do. The first LaCroix Design Co. site that we built moved us away from WordPress and onto Expression Engine. This iteration focused on adding more functionality as well as aesthetic bells and whistles.&lt;/p&gt;
+
+&lt;p&gt;After that we, we created the predecessor to this site. It was the first responsive web site that we made for ourselves and began to showcase not only the visual nature of our projects but also the design thinking and process that went into them. Not fully content with any content management system available, this site was powered by a custom built web application to demonstrate our studio&amp;rsquo;s development skills.&lt;/p&gt;
+
+&lt;p&gt;This leads us to our most recent iteration. For the first time in nearly nine years, we did not attempt to add more and sought to reduce wherever possible. Although we are still quite proud of our custom content management system, we abandoned it due to lack of necessity. When both members of the team are comfortable with HTML &amp;amp; CSS, a content management system is overkill and removing it increases the speed of the site. Additionally, we reduced the copy and amount of pages to provide a simpler user experience. Design should facilitate rather than get in the way of the stories that we always want to share through our site.&lt;/p&gt;
+
+&lt;p&gt;By having less, we have the capability to iterate more quickly. Rather than wait another year or two to create a new site, changes can be quickly made as we examine the interactions taking place. I would trust that the site will not look exactly the same next month as it does today. We are excited about what we have learned and planned to share more specific details about it in the coming weeks and months. We hope that you find delight in the new site and more importantly the work that we have done for our clients.&lt;/p&gt;
+</content>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://d2s13a5qoldi0f.cloudfront.net/images/blog/doing-more-with-less/doing-more-with-less-dbabc9ed.jpg"/>
+  </entry>
+</feed>

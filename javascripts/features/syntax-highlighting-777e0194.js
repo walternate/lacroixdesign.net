@@ -1,0 +1,1 @@
+$(document).on("pjax:end",function(){"undefined"!=typeof Prism&&Prism.highlightAll()});
