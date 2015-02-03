@@ -5,7 +5,74 @@
   <id>http://www.lacroixdesign.net/blog</id>
   <link href="http://www.lacroixdesign.net/blog"/>
   <link href="http://www.lacroixdesign.net/feed.xml" rel="self"/>
-  <updated>2015-01-28T15:00:00-06:00</updated>
+  <updated>2015-02-03T07:00:00-06:00</updated>
+  <entry>
+    <title>Always Have a Solid Backup Plan</title>
+    <link rel="alternate" href="http://www.lacroixdesign.net/blog/always-have-a-solid-backup-plan/"/>
+    <id>http://www.lacroixdesign.net/blog/always-have-a-solid-backup-plan/</id>
+    <published>2015-02-03T07:00:00-06:00</published>
+    <updated>2015-02-03T07:46:26-06:00</updated>
+    <author>
+      <name>James LaCroix</name>
+    </author>
+    <content type="html">&lt;p&gt;This past autumn, I once again had the opportunity to work with long-time friends and clients, &lt;a target="_blank" href="http://relientk.com"&gt;Relient K&lt;/a&gt; designing and producing merchandise for their upcoming tour. Celebrating the 10-year anniversary of their best-selling album, &lt;a target="_blank" href="http://en.wikipedia.org/wiki/Mmhmm"&gt;MMHMM&lt;/a&gt;, the tour was slated to be a special event for both the band and their fans.&lt;/p&gt;
+
+&lt;p&gt;In addition to newly designed merchandise, the members of Relient K wanted to reprint classic merchandise from the timeframe of their original record release. This led me to an exploration of art files from 10 years back. Many of these files predated LaCroix Design Co. and I was amazed to find that I had retained so many of the design files and records from this time. We were successfully able to manufacture the classic apparel and the tour was a huge success.&lt;/p&gt;
+
+&lt;p&gt;Since starting LaCroix Design Co. in 2005, we have been victims of a burglary and numerous hard drive failures. The fact that I had retained a collection of files from ten years back was more of a testament to luck than any full-proof backup plan. However, we’ve never been content leaving this up to luck alone.&lt;/p&gt;
+
+&lt;p&gt;Throughout the existence of LaCroix Design Co., we have made deliberate decisions to ensure that work we create for our clients is systematically backed up and available for years to come. This is an overview of the redundant system we are using to keep all our files safe.&lt;/p&gt;
+
+&lt;h3&gt;System Wide&lt;/h3&gt;
+
+&lt;p&gt;Our backup plan starts with individual computers. This ensures everything on our systems is accessible at any given time. Should we experience a system malfunction, hard drive failure, theft or some other disaster, these backups are available to help us get up and running quickly. These system solutions work in tandem with the other services we outline to provide redundancy.  &lt;/p&gt;
+
+&lt;h4&gt;Time Machine&lt;/h4&gt;
+
+&lt;p&gt;We start with &lt;a target="_blank" href="http://support.apple.com/en-us/HT201250"&gt;Time Machine&lt;/a&gt;, the built-in backup feature of OS X. This feature retains a copy of our of our files, as well as a feature that expresses how our system looked on any given day. These backups are synced via our wireless network and stored on two separate hard drives.&lt;/p&gt;
+
+&lt;h4&gt;Backblaze&lt;/h4&gt;
+
+&lt;p&gt;Time Machine is a terrific feature, but it is backing up the files to disks which reside at the same physical location as our computers. Thus, we require something that will allow us to backup the bulk of our files to remote storage.&lt;/p&gt;
+
+&lt;p&gt;This is where &lt;a target="_blank" href="http://lcrx.co/1vplTMd"&gt;Backblaze&lt;/a&gt; excels. For $50 a year, Backblaze will continuously backup an unlimited amount of data from you computer and any drives attached to it. This provides us access to multiple versions of our files through its online interface. Or, we may request the shipment of a hard drive with all of our data on it.&lt;/p&gt;
+
+&lt;p&gt;Although this backup process is not a fast as a locally attached device or Time Machine running on our local network, Backblaze provides us with a sound piece of mind knowing that our files are continuously being backed up off-site.&lt;/p&gt;
+
+&lt;h3&gt;Design Files&lt;/h3&gt;
+
+&lt;p&gt;We find it important to create an additional level of backup for our design files. Very often, these files can be quite large and a loss of the editable versions would require an inordinate amount of time to recreate.&lt;/p&gt;
+
+&lt;h4&gt;LayerVault&lt;/h4&gt;
+
+&lt;p&gt;For many years, we stored all of our working design files on Dropbox so that we could access them from anywhere. We have since replaced this with one of my most relied-upon online services, &lt;a target="_blank" href="https://layervault.com/r/3X2"&gt;LayerVault&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;LayerVault provides remote version control for all of our art files and a slew of other vital features. Years ago, we attempted to version-control our design files using Git, which resulted in oversized repositories. Thus, we were thrilled to discover that LayerVault offered this crucial service and provided file previews for each version. We no longer have to save versions of a file out as final-1, final-2, etc.&lt;/p&gt;
+
+&lt;p&gt;In addition to automatically versioning all of our design files, LayerVault allows us to share project files internally or with an external team. As a result, others involved in a project will always have access to the latest design files and assets.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, LayerVault retains all of our project files and allows us to leave and rejoin a project at any time. Thus, we are able to remove a folder of project files from our computer and rejoin the project at a later date. Doing so will, in turn, sync all of the design files for a project back to our computer.&lt;/p&gt;
+
+&lt;h4&gt;Vault Drive&lt;/h4&gt;
+
+&lt;p&gt;As an added layer of backup, I keep a large hard drive of every LaCroix Design Co. project connected to my computer. As projects are completed, they are organized in folders by year. Additionally, font files and other assets are regularly archived on this drive. Since the drive is attached to my system, it is also backed up using Backblaze. While I imagine that this drive may one day be replaced by &lt;a target="_blank" href="http://aws.amazon.com/glacier/"&gt;Amazon Glacier&lt;/a&gt; or something similar, but this current setup has been working out very well.&lt;/p&gt;
+
+&lt;h3&gt;Development Files&lt;/h3&gt;
+
+&lt;p&gt;As our design process evolved from building static designs in traditional design applications to a process of iterating, prototyping and building interactive experiences with code, versioning and keeping backups of development files has become immensely important.&lt;/p&gt;
+
+&lt;h4&gt;Repositories&lt;/h4&gt;
+
+&lt;p&gt;All of our development projects are version-controlled using &lt;a target="_blank" href="http://git-scm.com/"&gt;Git&lt;/a&gt;. We host the majority of these repositories publicly and privately on &lt;a target="_blank" href="http://github.com"&gt;GitHub&lt;/a&gt; and utilize &lt;a target="_blank" href="https://bitbucket.org/"&gt;Bitbucket&lt;/a&gt; to host repositories for our smaller projects that we wish to keep private.&lt;/p&gt;
+
+&lt;h3&gt;Documents &amp;amp; Meeting Notes&lt;/h3&gt;
+
+&lt;p&gt;Documents for all projects are stored on &lt;a target="_blank" href="https://www.google.com/drive/"&gt;Google Drive&lt;/a&gt; and also archived along with all design files onto our Vault Drive upon the completion of each project. &lt;a target="_blank" href="http://lcrx.co/1DylAxU"&gt;Evernote&lt;/a&gt; is used to record all meeting notes, which are then shared internally.&lt;/p&gt;
+
+&lt;p&gt;If it is not obvious by now, our backup process is very important to us. Being able to provide files and assets years after a project is over allows us to continually exceed the expectations of the clients that partner with us. Feel free to &lt;a target="_blank" href="https://twitter.com/lacroixdesign"&gt;comment on Twitter&lt;/a&gt; if you have any questions or need clarity as to how we are using these tools and services.&lt;/p&gt;
+</content>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://d2s13a5qoldi0f.cloudfront.net/images/blog/always-have-a-solid-backup-plan/always-have-a-solid-backup-plan-1ecd2ca7.jpg"/>
+  </entry>
   <entry>
     <title>Website Launch: Chicago Food Magazine</title>
     <link rel="alternate" href="http://www.lacroixdesign.net/blog/website-launch-chicago-food-magazine/"/>
@@ -214,24 +281,5 @@ same office for a year now, we&amp;rsquo;ve found that these changes have improv
 
 &lt;p&gt;We do not know how we got by before this rescued Schnauzer puppy joined us. Aside from piping in on the occasional phone call, most of Dempsey&amp;rsquo;s contributions go unnoticed by those outside of our small design and development team. However, she has become integral part of our inner workings and we figured that it was about time to give credit where credit was due.&lt;/p&gt;
 </content>
-  </entry>
-  <entry>
-    <title>Signal Tower Interview</title>
-    <link rel="alternate" href="http://www.lacroixdesign.net/blog/signal-tower-interview/"/>
-    <id>http://www.lacroixdesign.net/blog/signal-tower-interview/</id>
-    <published>2014-05-28T14:00:00-05:00</published>
-    <updated>2015-01-28T12:44:35-06:00</updated>
-    <author>
-      <name>James LaCroix</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/96210906&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_artwork=true"&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;A little less that a year ago, I had the opportunity to sit down for an &lt;a target="_blank" href="http://signaltower.co/james-lacroixs-path-to-becoming-a-designer/"&gt;interview&lt;/a&gt; with Sam Solomon. Sam runs a fantastic site, &lt;a target="_blank" href="http://signaltower.co/"&gt;Signal Tower&lt;/a&gt;, where he interviews various entrepreneurs. I recently realized that we had never shared this interview on the LaCroix Design Co. blog so with the recent launch of our new site, this seemed like the perfect time.&lt;/p&gt;
-
-&lt;p&gt;During the interview, Sam and I had the opportunity to discuss what led me into the field of design, why I started LaCroix Design Co. and my time spent being employed in the music industry. As a result, we also had the opportunity cover how that process affects my approach to design. The interview took place shortly after our launch of &lt;a target="_blank" href="http://www.1pagesites.net/"&gt;1 Page Sites&lt;/a&gt;, so we also talk about our package service for single page responsive sites.&lt;/p&gt;
-
-&lt;p&gt;Despite the unflattering still on the for the video placeholder, I had a wonderful time talking with Sam. If you are interested, you can view the entire interview &lt;a target="_blank" href="http://signaltower.co/james-lacroixs-path-to-becoming-a-designer/"&gt;here&lt;/a&gt;.&lt;/p&gt;
-</content>
-    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://d2s13a5qoldi0f.cloudfront.net/images/blog/signal-tower-interview/signal-tower-interview-592eb436.jpg"/>
   </entry>
 </feed>

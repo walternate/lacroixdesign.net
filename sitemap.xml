@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.lacroixdesign.net/blog/always-have-a-solid-backup-plan/</loc>
+    <lastmod>2015-02-03</lastmod>
+  </url>
+  <url>
     <loc>http://www.lacroixdesign.net/blog/announcing-our-new-monthly-newsletter/</loc>
     <lastmod>2015-01-28</lastmod>
   </url>
@@ -62,7 +66,7 @@
   </url>
   <url>
     <loc>http://www.lacroixdesign.net/blog/</loc>
-    <lastmod>2015-01-28</lastmod>
+    <lastmod>2015-02-03</lastmod>
   </url>
   <url>
     <loc>http://www.lacroixdesign.net/case-studies/1-page-sites/</loc>
@@ -114,11 +118,11 @@
   </url>
   <url>
     <loc>http://www.lacroixdesign.net/case-studies/</loc>
-    <lastmod>2015-01-28</lastmod>
+    <lastmod>2015-01-30</lastmod>
   </url>
   <url>
     <loc>http://www.lacroixdesign.net/blog/page/2/</loc>
-    <lastmod>2015-01-28</lastmod>
+    <lastmod>2015-02-03</lastmod>
   </url>
   <url>
     <loc>http://www.lacroixdesign.net/technoratimedia_sv_6763.txt</loc>
@@ -134,18 +138,14 @@
   </url>
   <url>
     <loc>http://www.lacroixdesign.net/start/thanks/</loc>
-    <lastmod>2015-01-28</lastmod>
+    <lastmod>2015-02-03</lastmod>
   </url>
   <url>
     <loc>http://www.lacroixdesign.net/start/</loc>
-    <lastmod>2015-01-28</lastmod>
+    <lastmod>2015-02-03</lastmod>
   </url>
   <url>
     <loc>http://www.lacroixdesign.net/pinterest-e87c7.html</loc>
-    <lastmod>2015-01-28</lastmod>
-  </url>
-  <url>
-    <loc>http://www.lacroixdesign.net/newsletter/</loc>
     <lastmod>2015-01-28</lastmod>
   </url>
   <url>
@@ -155,5 +155,9 @@
   <url>
     <loc>http://www.lacroixdesign.net/</loc>
     <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.lacroixdesign.net/newsletter/</loc>
+    <lastmod>2015-01-28</lastmod>
   </url>
 </urlset>
