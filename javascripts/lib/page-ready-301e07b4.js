@@ -1,1 +1,0 @@
-!function(){var n=function(n){$(document).ready(n),$(document).on("pjax:end",n)};window.pageReady=n}();

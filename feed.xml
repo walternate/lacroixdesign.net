@@ -11,7 +11,7 @@
     <link rel="alternate" href="http://www.lacroixdesign.net/blog/always-have-a-solid-backup-plan/"/>
     <id>http://www.lacroixdesign.net/blog/always-have-a-solid-backup-plan/</id>
     <published>2015-02-03T07:00:00-06:00</published>
-    <updated>2015-02-03T07:46:26-06:00</updated>
+    <updated>2015-02-03T23:43:05-06:00</updated>
     <author>
       <name>James LaCroix</name>
     </author>
@@ -21,7 +21,7 @@
 
 &lt;p&gt;Since starting LaCroix Design Co. in 2005, we have been victims of a burglary and numerous hard drive failures. The fact that I had retained a collection of files from ten years back was more of a testament to luck than any full-proof backup plan. However, we’ve never been content leaving this up to luck alone.&lt;/p&gt;
 
-&lt;p&gt;Throughout the existence of LaCroix Design Co., we have made deliberate decisions to ensure that work we create for our clients is systematically backed up and available for years to come. This is an overview of the redundant system we are using to keep all our files safe.&lt;/p&gt;
+&lt;p&gt;From the beginning, we have made deliberate decisions to ensure that work we create for our clients is systematically backed up and available for years to come. This is an overview of the redundant system we are using to keep all our files safe.&lt;/p&gt;
 
 &lt;h3&gt;System Wide&lt;/h3&gt;
 
@@ -71,7 +71,7 @@
 
 &lt;p&gt;If it is not obvious by now, our backup process is very important to us. Being able to provide files and assets years after a project is over allows us to continually exceed the expectations of the clients that partner with us. Feel free to &lt;a target="_blank" href="https://twitter.com/lacroixdesign"&gt;comment on Twitter&lt;/a&gt; if you have any questions or need clarity as to how we are using these tools and services.&lt;/p&gt;
 </content>
-    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://d2s13a5qoldi0f.cloudfront.net/images/blog/always-have-a-solid-backup-plan/always-have-a-solid-backup-plan-15958325.jpg"/>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.lacroixdesign.net/images/blog/always-have-a-solid-backup-plan/always-have-a-solid-backup-plan-15958325.jpg"/>
   </entry>
   <entry>
     <title>Website Launch: Chicago Food Magazine</title>
@@ -94,7 +94,7 @@
 
 &lt;p&gt;We hope that you take the opportunity to experience the new website at &lt;a target="_blank" href="http://www.chicagofoodmagazine.com/"&gt;www.ChicagoFoodMagazine.com&lt;/a&gt; and hopefully we’ll catch you frequenting one of Chicago’s many top-notch establishments.&lt;/p&gt;
 </content>
-    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://d2s13a5qoldi0f.cloudfront.net/images/blog/website-launch-chicago-food-magazine/website-launch-chicago-food-magazine-5777c0b5.jpg"/>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.lacroixdesign.net/images/blog/website-launch-chicago-food-magazine/website-launch-chicago-food-magazine-5777c0b5.jpg"/>
   </entry>
   <entry>
     <title>One Year of Node Bourbon</title>
@@ -162,7 +162,7 @@ gulp.task(&amp;#39;sass&amp;#39;, function () {
 
 &lt;p&gt;Feel free to &lt;a target="_blank" href="https://twitter.com/iamlacroix"&gt;send me a tweet&lt;/a&gt; if you have any questions!&lt;/p&gt;
 </content>
-    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://d2s13a5qoldi0f.cloudfront.net/images/blog/one-year-of-node-bourbon/bourbon-bb162508.jpg"/>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.lacroixdesign.net/images/blog/one-year-of-node-bourbon/bourbon-bb162508.jpg"/>
   </entry>
   <entry>
     <title>Announcing Our New Monthly Newsletter</title>
@@ -222,7 +222,7 @@ We have worked with numerous clients over the years to design and develop succes
 
 &lt;/figure&gt;
 </content>
-    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://d2s13a5qoldi0f.cloudfront.net/images/blog/announcing-our-new-monthly-newsletter/announcing-our-new-monthly-newsletter-ed34674d.jpg"/>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.lacroixdesign.net/images/blog/announcing-our-new-monthly-newsletter/announcing-our-new-monthly-newsletter-ed34674d.jpg"/>
   </entry>
   <entry>
     <title>Lessons Learned From Working Remotely</title>
@@ -260,7 +260,7 @@ One of the fallbacks of being a designer or developer is overthinking our soluti
 effect on our non-remote workflows. After working in the
 same office for a year now, we&amp;rsquo;ve found that these changes have improved the productivity and quality of our work.&lt;/p&gt;
 </content>
-    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://d2s13a5qoldi0f.cloudfront.net/images/blog/lessons-learned-from-working-remotely/lessons-learned-from-working-remotely-8efd083e.jpg"/>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.lacroixdesign.net/images/blog/lessons-learned-from-working-remotely/lessons-learned-from-working-remotely-8efd083e.jpg"/>
   </entry>
   <entry>
     <title>Keeping Workplace Morale High</title>
@@ -271,7 +271,7 @@ same office for a year now, we&amp;rsquo;ve found that these changes have improv
     <author>
       <name>James LaCroix</name>
     </author>
-    <content type="html">&lt;figure class="image-stretch-wrap"&gt;&lt;img alt="Dempsey" class="image-fullwidth" width="800" height="800" src="http://d2s13a5qoldi0f.cloudfront.net/images/blog/keeping-workplace-morale-high/dempsey-office-f7fe3a92.jpg" /&gt;&lt;/figure&gt;
+    <content type="html">&lt;figure class="image-stretch-wrap"&gt;&lt;img alt="Dempsey" class="image-fullwidth" width="800" height="800" src="http://www.lacroixdesign.net/images/blog/keeping-workplace-morale-high/dempsey-office-f7fe3a92.jpg" /&gt;&lt;/figure&gt;
 
 &lt;p&gt;We love designing and developing for the web. However, there are those rare times when even things that we are passionate about start to feel like hard work. It is for these times that we have recruited the smallest member of our team.&lt;/p&gt;
 
