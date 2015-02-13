@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.lacroixdesign.net/blog/a-study-in-craft/</loc>
+    <lastmod>2015-02-13</lastmod>
+  </url>
+  <url>
     <loc>http://www.lacroixdesign.net/blog/always-have-a-solid-backup-plan/</loc>
-    <lastmod>2015-02-03</lastmod>
+    <lastmod>2015-02-12</lastmod>
   </url>
   <url>
     <loc>http://www.lacroixdesign.net/blog/announcing-our-new-monthly-newsletter/</loc>
@@ -94,7 +98,7 @@
   </url>
   <url>
     <loc>http://www.lacroixdesign.net/case-studies/estaine/</loc>
-    <lastmod>2015-02-09</lastmod>
+    <lastmod>2015-02-13</lastmod>
   </url>
   <url>
     <loc>http://www.lacroixdesign.net/case-studies/justice-film-fest/</loc>
@@ -154,7 +158,7 @@
   </url>
   <url>
     <loc>http://www.lacroixdesign.net/newsletter/</loc>
-    <lastmod>2015-02-03</lastmod>
+    <lastmod>2015-02-13</lastmod>
   </url>
   <url>
     <loc>http://www.lacroixdesign.net/newsletter/confirm/</loc>
