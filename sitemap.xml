@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.lacroixdesign.net/android-chrome-144x144-44444c5b.png</loc>
+    <lastmod>2015-02-16</lastmod>
+  </url>
+  <url>
+    <loc>http://www.lacroixdesign.net/android-chrome-192x192-468bedfa.png</loc>
+    <lastmod>2015-02-16</lastmod>
+  </url>
+  <url>
+    <loc>http://www.lacroixdesign.net/android-chrome-36x36-a54e8a85.png</loc>
+    <lastmod>2015-02-16</lastmod>
+  </url>
+  <url>
+    <loc>http://www.lacroixdesign.net/android-chrome-48x48-a6634e87.png</loc>
+    <lastmod>2015-02-16</lastmod>
+  </url>
+  <url>
+    <loc>http://www.lacroixdesign.net/android-chrome-72x72-0fd7afe8.png</loc>
+    <lastmod>2015-02-16</lastmod>
+  </url>
+  <url>
+    <loc>http://www.lacroixdesign.net/android-chrome-96x96-5f53448a.png</loc>
+    <lastmod>2015-02-16</lastmod>
+  </url>
+  <url>
     <loc>http://www.lacroixdesign.net/blog/a-study-in-craft/</loc>
     <lastmod>2015-02-13</lastmod>
   </url>
@@ -133,6 +157,22 @@
     <lastmod>2015-02-10</lastmod>
   </url>
   <url>
+    <loc>http://www.lacroixdesign.net/favicon-16x16-bb3850c7.png</loc>
+    <lastmod>2015-02-16</lastmod>
+  </url>
+  <url>
+    <loc>http://www.lacroixdesign.net/favicon-194x194-254f144e.png</loc>
+    <lastmod>2015-02-16</lastmod>
+  </url>
+  <url>
+    <loc>http://www.lacroixdesign.net/favicon-32x32-fccb9f14.png</loc>
+    <lastmod>2015-02-16</lastmod>
+  </url>
+  <url>
+    <loc>http://www.lacroixdesign.net/favicon-96x96-d663e66b.png</loc>
+    <lastmod>2015-02-16</lastmod>
+  </url>
+  <url>
     <loc>http://www.lacroixdesign.net/blog/page/2/</loc>
     <lastmod>2015-02-03</lastmod>
   </url>
@@ -167,6 +207,26 @@
   <url>
     <loc>http://www.lacroixdesign.net/new-client/</loc>
     <lastmod>2015-02-08</lastmod>
+  </url>
+  <url>
+    <loc>http://www.lacroixdesign.net/mstile-70x70-48790f69.png</loc>
+    <lastmod>2015-02-16</lastmod>
+  </url>
+  <url>
+    <loc>http://www.lacroixdesign.net/mstile-310x310-d4190047.png</loc>
+    <lastmod>2015-02-16</lastmod>
+  </url>
+  <url>
+    <loc>http://www.lacroixdesign.net/mstile-310x150-7a756eaa.png</loc>
+    <lastmod>2015-02-16</lastmod>
+  </url>
+  <url>
+    <loc>http://www.lacroixdesign.net/mstile-150x150-e1ea631b.png</loc>
+    <lastmod>2015-02-16</lastmod>
+  </url>
+  <url>
+    <loc>http://www.lacroixdesign.net/mstile-144x144-549f08e7.png</loc>
+    <lastmod>2015-02-16</lastmod>
   </url>
   <url>
     <loc>http://www.lacroixdesign.net/</loc>
