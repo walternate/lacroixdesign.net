@@ -11,7 +11,7 @@
     <link rel="alternate" href="http://www.lacroixdesign.net/blog/a-study-in-craft/"/>
     <id>http://www.lacroixdesign.net/blog/a-study-in-craft/</id>
     <published>2015-02-12T14:30:00-06:00</published>
-    <updated>2015-02-13T14:07:05-06:00</updated>
+    <updated>2015-02-16T18:11:57-06:00</updated>
     <author>
       <name>Michael LaCroix</name>
     </author>
@@ -54,7 +54,7 @@
     <link rel="alternate" href="http://www.lacroixdesign.net/blog/always-have-a-solid-backup-plan/"/>
     <id>http://www.lacroixdesign.net/blog/always-have-a-solid-backup-plan/</id>
     <published>2015-02-03T07:00:00-06:00</published>
-    <updated>2015-02-12T14:08:55-06:00</updated>
+    <updated>2015-02-16T18:11:57-06:00</updated>
     <author>
       <name>James LaCroix</name>
     </author>
@@ -121,7 +121,7 @@
     <link rel="alternate" href="http://www.lacroixdesign.net/blog/website-launch-chicago-food-magazine/"/>
     <id>http://www.lacroixdesign.net/blog/website-launch-chicago-food-magazine/</id>
     <published>2015-01-28T15:00:00-06:00</published>
-    <updated>2015-01-28T15:13:30-06:00</updated>
+    <updated>2015-02-16T18:11:57-06:00</updated>
     <author>
       <name>James LaCroix</name>
     </author>
@@ -144,7 +144,7 @@
     <link rel="alternate" href="http://www.lacroixdesign.net/blog/one-year-of-node-bourbon/"/>
     <id>http://www.lacroixdesign.net/blog/one-year-of-node-bourbon/</id>
     <published>2014-09-11T12:30:00-05:00</published>
-    <updated>2015-01-28T12:44:35-06:00</updated>
+    <updated>2015-02-16T18:11:57-06:00</updated>
     <author>
       <name>Michael LaCroix</name>
     </author>
@@ -212,7 +212,7 @@ gulp.task(&amp;#39;sass&amp;#39;, function () {
     <link rel="alternate" href="http://www.lacroixdesign.net/blog/announcing-our-new-monthly-newsletter/"/>
     <id>http://www.lacroixdesign.net/blog/announcing-our-new-monthly-newsletter/</id>
     <published>2014-08-26T09:00:00-05:00</published>
-    <updated>2015-01-28T12:44:35-06:00</updated>
+    <updated>2015-02-16T18:11:57-06:00</updated>
     <author>
       <name>James LaCroix</name>
     </author>
@@ -272,7 +272,7 @@ We have worked with numerous clients over the years to design and develop succes
     <link rel="alternate" href="http://www.lacroixdesign.net/blog/lessons-learned-from-working-remotely/"/>
     <id>http://www.lacroixdesign.net/blog/lessons-learned-from-working-remotely/</id>
     <published>2014-08-19T09:00:00-05:00</published>
-    <updated>2015-01-28T12:44:35-06:00</updated>
+    <updated>2015-02-16T18:11:57-06:00</updated>
     <author>
       <name>James LaCroix</name>
     </author>
