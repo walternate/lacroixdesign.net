@@ -11,7 +11,7 @@
     <link rel="alternate" href="http://www.lacroixdesign.net/blog/far-from-finished/"/>
     <id>http://www.lacroixdesign.net/blog/far-from-finished/</id>
     <published>2015-05-21T10:45:00-05:00</published>
-    <updated>2015-05-21T10:57:36-05:00</updated>
+    <updated>2015-05-21T11:04:11-05:00</updated>
     <author>
       <name>James LaCroix</name>
     </author>
@@ -21,7 +21,7 @@
 
 &lt;p&gt;In the business of client services, you do not always get the opportunity to continually improve upon everything that you ship. Very often, the client is happy, the project ends, you get paid and the thing that you created goes on without you. Sadly, these projects miss out on the beneficial iterations that happen after your have been able to assess how the visitors or users interact with the product.&lt;/p&gt;
 
-&lt;p&gt;Luckily, we have had the pleasure to work with a number of clients who allow us to return to previous projects and tackle new challenges. I’m consistently assured that these experiences will continue to improve if we never treat them as finished. Nowhere is this more evident than in our personal projects. For example, our own website is never done.&lt;/p&gt;
+&lt;p&gt;Luckily, we have had the pleasure to work with a number of clients who allow us to return to previous projects and tackle new challenges. I’m consistently assured that these experiences will continue to improve if we never treat them as finished. Nowhere is this more evident than in our personal projects. For example, our own website is never finished and we are constantly trying to improve the our visitors&amp;#39; experience.&lt;/p&gt;
 
 &lt;p&gt;Nearly a year ago, I wrote a &lt;a target="_blank" href="http://www.lacroixdesign.net/blog/doing-more-with-less/"&gt;post for the launch of our new website&lt;/a&gt; about how a simpler solution provides us with the freedom to iterate. Our current website utilizes &lt;a target="_blank" href="https://middlemanapp.com/"&gt;Middleman&lt;/a&gt; to generate a static site upon deployment and this provides a fantastic venue for exploring and implementing new solutions. Earlier this year, we made some improvements to our website. In this post, I’d like to share the decision making behind these changes and the results that we’ve received.&lt;/p&gt;
 
